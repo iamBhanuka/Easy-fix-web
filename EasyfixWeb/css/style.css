@@ -80,9 +80,9 @@
   padding: 0;
 }
 
-#navbarNav,#aa{
-  background-color:#fff;
-}
+/* #navbarNav,#aa{
+  background-color:#fff; 
+} */
  #nav-bar
  {
    position: sticky;
@@ -116,18 +116,21 @@
 {
   border: none !important;
 }
-.nav-link
+.nav-link,#login
 {
-  color:#555 !important;
+  color:#555 ;
   font-weight: 600;
   font-size: 16px;
 }
+.myactive{
+  background-color:yellow:;
+}
 
 /*---------Slider--------------*/
-#slider
+/* #slider
 {
   width: 100%;
-}
+} */
 .carousel-caption
 {
   top: 50%;
